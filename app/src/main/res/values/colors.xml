@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#1e88e5</color>
+
+    <color name="colorText">#E8EAF6</color>
+    <color name="colorCursor">#9E9E9E</color>
+    <color name="colorHint">#BDBDBD</color>
+
+    <color name="colorLoginButton">#00897B</color>
+    <color name="colorTitleText">#80CBC4</color>
+    <color name="PoorTadeTextColor">#DD2C00</color>
+    <color name="SpinnerTexColor">#000000</color>
+    <color name="SpinnerPopup">#E0E0E0</color>
+    <color name="textRed">#D50000</color>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground">
+    <TextView
+        android:id="@+id/hazard_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Subject"
+        android:textColor="#90caf9"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/hazard_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hazard_title"
+        android:text="Content"
+        android:maxLines="10"
+        android:textColor="#212121"
+        android:textSize="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hazard_info"
+        android:layout_below="@id/hazard_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/hazard_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="55 comments"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/hazard_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="27 Apr 2016"
+            android:gravity="right"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#212121"
+        android:layout_below="@id/hazard_info"
+        android:layout_height="0.9dp"/>
+</RelativeLayout>
